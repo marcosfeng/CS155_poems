@@ -1,13 +1,22 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import time
-
-import re
 import nltk
-import spacy
-import keras
+nltk.download('punkt')
+nltk.download('cmudict')
+from nltk.tokenize import RegexpTokenizer
+from nltk.corpus import cmudict
 
 
-corpus = open('data/shakespeare.txt').read()
+d_pronoun = cmudict.dict()
+tokenizer = RegexpTokenizer('\w[\w|\'|-]*\w|\w')
 
-print(corpus)
+f = open('data/shakespeare.txt')
+line_tokens = []
+for line in f:
+    line = line.strip()
+    if (line.isdigit()):
+        continue
+    if (len(line) > 0):
+        line = line.lower()
+        tokens = tokenizer.tokenize(line)
+        if len(tokens) > 1:
+            line_tokens.append(tokens)
+
