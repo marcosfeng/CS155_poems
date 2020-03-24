@@ -1,3 +1,32 @@
+import re
+
+def load_doc(filename):
+    file = open(filename, 'r')
+    # read all text
+    text = file.read()
+    # close the file
+    file.close()
+    return text
+
+raw_text = load_doc('data/shakespeare.txt')
+tokens = re.split("\s", raw_text)
+raw_text = ' '.join(tokens)
+# Remove number of sonnet
+raw_text = ''.join([i for i in raw_text if not i.isdigit()])
+raw_text = raw_text.lower()
+raw_text = re.split("\s", raw_text)
+while("" in raw_text) :
+    raw_text.remove("")
+
+length = 40
+sequences = list()
+for i in range(length, len(raw_text)):
+	# select sequence of tokens
+	seq = raw_text[i-length:i]
+	# store
+	sequences.append(seq)
+
+
 import nltk
 nltk.download('punkt')
 nltk.download('cmudict')
