@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="328bf542-345c-4e8c-993f-646356f11d25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/RNN2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/RNN2-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RNN-keras-test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre-process.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre-process.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pre-process-char.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="255">
               <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
@@ -37,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="546">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="42" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -59,12 +56,12 @@
     <findStrings>
       <find>generate_</find>
       <find>training_mode</find>
-      <find>TrainingLine</find>
       <find>range</find>
       <find>6</find>
       <find>syllable_input</find>
       <find>output_</find>
       <find>name</find>
+      <find>TrainingLine</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -277,7 +274,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3253886" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3253886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -412,20 +409,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/metadata.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pre-process-char.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="255">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metadata.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="546">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="42" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
