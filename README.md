@@ -5,6 +5,8 @@ HMM models:
 --HMM3.ipynb
 --HMM_Poem.ipynb
 --HMM_Poem2.ipynb
+--HMM_Visualize.ipynb
+--HMM.py
 
 
 Character-based LSTM:
